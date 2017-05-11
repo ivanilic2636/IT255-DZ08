@@ -1,0 +1,105 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    background: transparent url("http://mustangsdaily.com/blog/wp-content/uploads/2013/07/02-1969-boss-429-mecum-preview.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    color: white;
+}
+
+form{
+    position: relative;
+    display: block;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0% 0%;
+    padding: 20px;
+    margin: 10% auto;
+}
+
+form > p > input[type=text], form > p > input[type=password]{
+    float: right;
+    width: 280px;
+}
+
+form > input[type=submit], .button{
+    background-color: rgb(76, 175, 80);
+    border: medium none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0px auto;
+}
+
+header{
+    position: relative;
+    display: block;
+    background: rgba(0, 0, 0, 0.59) none repeat scroll 0% 0%;
+    height: 50px;
+    text-align: center;
+	margin-bottom: 50px;
+}
+
+header > a{
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+form > select {
+    position: relative;
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+table{
+    position: relative;
+    display: block;
+    border: 1px solid transparent;
+}
+
+table > tbody{
+    border: 2px solid black;
+}
+
+table > tbody  td{
+    border: 2px solid black;
+    width: 180px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+table  a{
+    background-color: rgb(76, 175, 80);
+    border: medium none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 18px;
+}
+
+body  tr td > a:nth-child(2){
+    background-color: rgb(222, 75, 64);
+    border: medium none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 18px;
+}
